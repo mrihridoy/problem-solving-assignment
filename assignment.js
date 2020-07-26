@@ -3,8 +3,9 @@ function feetToMile(feet){
     var mile = feet / 5280;
     return mile;
 }
+// Checked Output
 var barishalToNoakhali = feetToMile(528000);
-console.log("Barishal to Noakhali Total", barishalToNoakhali, "Mile");
+console.log("Barishal to Noakhali Total: ", barishalToNoakhali, "Mile");
 
 
 
@@ -16,8 +17,9 @@ function woodCalculator(chair, table, bad){
     var totalWood = chair + table + bad;
     return totalWood;
 }
-var firsttCustomer = woodCalculator(14, 2, 6);
-console.log(firsttCustomer);
+// Checked Output
+var firstCustomer = woodCalculator(14, 2, 6);
+console.log("Total Your Wood Need:", firstCustomer);
 
 
 
